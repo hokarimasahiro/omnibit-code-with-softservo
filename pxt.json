@@ -1,0 +1,34 @@
+{
+    "name": "Omnibit-code-with-softServo",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-watchfont": "github:hokarimasahiro/pxt-watchfont#572ae2ddd7f597dc65081544432e18b706bec4c4",
+        "pxt-softpwm": "github:hokarimasahiro/pxt-softpwm#9d8ce4c7a9f68cb1a34e14460fee5a22b539fba5",
+        "pxt-getradiogroup": "github:hokarimasahiro/pxt-getradiogroup#c00212ab9efc19ecc7da41070ec4a4a557bbbc76"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
